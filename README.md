@@ -27,7 +27,7 @@ These cover:
 
 ## 🚀 How to Run
 
-1. **Place your zipped Talend projects** (containing `process/` folders with `.item` files) into:
+1. **Place your zipped Talend Jobs** into:
 
 ```
 zipped_jobs/
