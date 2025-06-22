@@ -1,0 +1,9 @@
+id: RULE_045
+title: tNormalize Without Order
+description: Normalized output becomes inconsistent
+severity: high
+pattern:
+  contains: "tNormalize"
+fix:
+  strategy: llm
+  message: "Set normalization order."

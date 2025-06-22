@@ -1,0 +1,9 @@
+id: RULE_033
+title: Hardcoded SQL Query
+description: SQL inside component instead of repository
+severity: high
+pattern:
+  contains: "SELECT * FROM"
+fix:
+  strategy: llm
+  message: "Move query to repository."

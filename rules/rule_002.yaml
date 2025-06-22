@@ -1,0 +1,9 @@
+id: RULE_002
+title: tMap Missing Expression
+description: Detects tMap mappings without expressions
+severity: high
+pattern:
+  contains: "<EXPRESSION><![CDATA[]]></EXPRESSION>"
+fix:
+  strategy: llm
+  message: "Add proper expressions in tMap."

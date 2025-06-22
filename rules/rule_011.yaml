@@ -1,0 +1,9 @@
+id: RULE_011
+title: tMap Expression Is Null
+description: Detects null or empty expressions in tMap
+severity: high
+pattern:
+  contains: "<EXPRESSION><![CDATA[]]></EXPRESSION>"
+fix:
+  strategy: llm
+  message: "Provide a valid expression or transformation."

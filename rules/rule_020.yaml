@@ -1,0 +1,9 @@
+id: RULE_020
+title: tFileInputDelimited Without Escape
+description: Escape character not defined
+severity: medium
+pattern:
+  contains: "tFileInputDelimited"
+fix:
+  strategy: llm
+  message: "Specify escape character."

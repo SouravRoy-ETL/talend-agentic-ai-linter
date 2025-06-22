@@ -1,0 +1,9 @@
+id: RULE_001
+title: Hardcoded Credentials
+description: Detects use of hardcoded usernames/passwords
+severity: critical
+pattern:
+  contains: "password="
+fix:
+  strategy: llm
+  message: "Use context variables for credentials."

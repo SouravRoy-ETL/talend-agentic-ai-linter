@@ -1,0 +1,9 @@
+id: RULE_046
+title: Excessive Subjobs
+description: Too many subjobs in single process
+severity: medium
+pattern:
+  contains: "subjob"
+fix:
+  strategy: llm
+  message: "Modularize or split job."

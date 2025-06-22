@@ -1,0 +1,9 @@
+id: RULE_009
+title: Improper Join Keys
+description: Detects missing join keys in tMap
+severity: high
+pattern:
+  contains: "JOIN_MODEL"
+fix:
+  strategy: llm
+  message: "Ensure proper join keys."

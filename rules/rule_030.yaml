@@ -1,0 +1,9 @@
+id: RULE_030
+title: tFileOutputDelimited Overwrite Enabled
+description: Overwrite is true
+severity: high
+pattern:
+  contains: "<OVERWRITE>true</OVERWRITE>"
+fix:
+  strategy: llm
+  message: "Confirm before overwriting files."

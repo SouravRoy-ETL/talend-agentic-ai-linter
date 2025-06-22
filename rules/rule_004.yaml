@@ -1,0 +1,9 @@
+id: RULE_004
+title: Context Misuse
+description: Detects use of globalMap instead of context
+severity: high
+pattern:
+  contains: "globalMap."
+fix:
+  strategy: llm
+  message: "Replace globalMap with context variable."

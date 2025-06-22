@@ -1,0 +1,9 @@
+id: RULE_019
+title: tAggregateRow Without Functions
+description: tAggregateRow used without aggregate functions
+severity: high
+pattern:
+  contains: "<tAggregateRow"
+fix:
+  strategy: llm
+  message: "Define aggregation logic."

@@ -1,0 +1,9 @@
+id: RULE_038
+title: Reload Each Row in Lookup
+description: High performance penalty setting
+severity: high
+pattern:
+  contains: "Reload Each Row"
+fix:
+  strategy: llm
+  message: "Change to Load Once."

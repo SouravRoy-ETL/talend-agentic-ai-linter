@@ -1,0 +1,9 @@
+id: RULE_015
+title: tJava Code Block Too Long
+description: Large code blocks in tJava should be modularized
+severity: medium
+pattern:
+  contains: "System.out.println"
+fix:
+  strategy: llm
+  message: "Move logic to routine or method."

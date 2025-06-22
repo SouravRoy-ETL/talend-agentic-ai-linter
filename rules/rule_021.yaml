@@ -1,0 +1,9 @@
+id: RULE_021
+title: Missing Metadata on Input
+description: Input component lacks schema definition
+severity: high
+pattern:
+  contains: "<METADATA"
+fix:
+  strategy: llm
+  message: "Provide column metadata."

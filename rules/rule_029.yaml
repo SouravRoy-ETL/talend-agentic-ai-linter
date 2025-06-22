@@ -1,0 +1,9 @@
+id: RULE_029
+title: tRESTClient Without Headers
+description: REST calls missing headers
+severity: high
+pattern:
+  contains: "tRESTClient"
+fix:
+  strategy: llm
+  message: "Set appropriate headers."

@@ -1,0 +1,9 @@
+id: RULE_037
+title: CSV Delimiter Missing
+description: No delimiter set in tFileInputDelimited
+severity: high
+pattern:
+  contains: "delimiter="
+fix:
+  strategy: llm
+  message: "Set CSV delimiter."

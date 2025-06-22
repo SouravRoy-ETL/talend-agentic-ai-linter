@@ -1,0 +1,9 @@
+id: RULE_027
+title: Redundant tLogRow
+description: Too many tLogRow for same flow
+severity: low
+pattern:
+  contains: "tLogRow"
+fix:
+  strategy: llm
+  message: "Consolidate logging."

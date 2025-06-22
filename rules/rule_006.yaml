@@ -1,0 +1,9 @@
+id: RULE_006
+title: tFixedFlowInput Missing Schema
+description: Ensures tFixedFlowInput has schema
+severity: medium
+pattern:
+  contains: "tFixedFlowInput"
+fix:
+  strategy: llm
+  message: "Define schema or metadata."

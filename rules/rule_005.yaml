@@ -1,0 +1,9 @@
+id: RULE_005
+title: tLogRow in Production
+description: Detects tLogRow in non-dev envs
+severity: low
+pattern:
+  contains: "tLogRow"
+fix:
+  strategy: llm
+  message: "Remove or disable tLogRow for production."

@@ -1,0 +1,9 @@
+id: RULE_041
+title: tLoop Infinite Risk
+description: While loop has no end condition
+severity: critical
+pattern:
+  contains: "tLoop"
+fix:
+  strategy: llm
+  message: "Ensure proper loop termination."

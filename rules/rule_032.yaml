@@ -1,0 +1,9 @@
+id: RULE_032
+title: Missing Documentation Component
+description: Job lacks any note or comment
+severity: low
+pattern:
+  contains: "tNote"
+fix:
+  strategy: llm
+  message: "Add design-time documentation."

@@ -1,0 +1,9 @@
+id: RULE_014
+title: tDie Without Message
+description: tDie component used without error message
+severity: medium
+pattern:
+  contains: "<tDie"
+fix:
+  strategy: llm
+  message: "Add error message to tDie for traceability."

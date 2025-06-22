@@ -1,0 +1,9 @@
+id: RULE_016
+title: Logging Enabled in Production
+description: Detects logging active in production environments
+severity: low
+pattern:
+  contains: "log4j"
+fix:
+  strategy: llm
+  message: "Disable or reduce logging for prod."

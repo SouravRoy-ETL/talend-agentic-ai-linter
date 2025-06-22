@@ -1,0 +1,9 @@
+id: RULE_031
+title: tFixedFlowInput Nulls in Schema
+description: Hardcoded nulls
+severity: high
+pattern:
+  contains: "<SCHEMA>"
+fix:
+  strategy: llm
+  message: "Use default values instead."

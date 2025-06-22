@@ -1,0 +1,9 @@
+id: RULE_012
+title: Missing Lookup in Join
+description: tMap join without proper lookup table
+severity: high
+pattern:
+  contains: "JOIN_MODEL"
+fix:
+  strategy: llm
+  message: "Add a valid lookup table to the join."

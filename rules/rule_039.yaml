@@ -1,0 +1,9 @@
+id: RULE_039
+title: Job Uses Too Many Context Groups
+description: Complexity in managing contexts
+severity: low
+pattern:
+  contains: "<contextGroup"
+fix:
+  strategy: llm
+  message: "Simplify context design."

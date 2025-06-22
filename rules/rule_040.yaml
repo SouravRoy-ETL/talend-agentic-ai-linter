@@ -1,0 +1,9 @@
+id: RULE_040
+title: tRunJob Missing Error Propagation
+description: Child job errors not handled
+severity: high
+pattern:
+  contains: "tRunJob"
+fix:
+  strategy: llm
+  message: "Enable error propagation."

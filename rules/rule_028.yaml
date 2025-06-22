@@ -1,0 +1,9 @@
+id: RULE_028
+title: Improper Naming Conventions
+description: Component names not aligned with standards
+severity: medium
+pattern:
+  contains: "COMPONENT"
+fix:
+  strategy: llm
+  message: "Use standard naming rules."

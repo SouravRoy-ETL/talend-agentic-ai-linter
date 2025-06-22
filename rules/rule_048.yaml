@@ -1,0 +1,9 @@
+id: RULE_048
+title: Improper Variable Scope
+description: Global variable misused
+severity: high
+pattern:
+  contains: "globalMap"
+fix:
+  strategy: llm
+  message: "Use local context vars."

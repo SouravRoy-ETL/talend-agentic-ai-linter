@@ -1,0 +1,9 @@
+id: RULE_043
+title: Nested Joins Without Index
+description: Performance issues in joins
+severity: medium
+pattern:
+  contains: "tMap"
+fix:
+  strategy: llm
+  message: "Ensure index on join fields."

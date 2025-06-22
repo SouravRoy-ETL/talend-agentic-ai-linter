@@ -1,0 +1,9 @@
+id: RULE_017
+title: tDenormalize Without Group Key
+description: Missing group key in tDenormalize
+severity: high
+pattern:
+  contains: "<tDenormalize"
+fix:
+  strategy: llm
+  message: "Define appropriate group key."

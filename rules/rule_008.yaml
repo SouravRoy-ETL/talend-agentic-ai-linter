@@ -1,0 +1,9 @@
+id: RULE_008
+title: Incorrect Date Format
+description: Flags wrong date formatting
+severity: high
+pattern:
+  contains: "yyyy/mm/dd"
+fix:
+  strategy: llm
+  message: "Use yyyy-MM-dd format."

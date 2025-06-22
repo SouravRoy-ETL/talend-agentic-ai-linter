@@ -1,0 +1,9 @@
+id: RULE_007
+title: Null Schema Detected
+description: Flags null values in schema expressions
+severity: medium
+pattern:
+  contains: "null"
+fix:
+  strategy: llm
+  message: "Replace with default values."

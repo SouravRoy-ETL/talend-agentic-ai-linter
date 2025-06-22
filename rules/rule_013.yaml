@@ -1,0 +1,9 @@
+id: RULE_013
+title: Hardcoded File Path
+description: Flags file paths hardcoded instead of using context
+severity: medium
+pattern:
+  contains: "/data/"
+fix:
+  strategy: llm
+  message: "Use context variables for file paths."

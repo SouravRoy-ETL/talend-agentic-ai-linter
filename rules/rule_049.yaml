@@ -1,0 +1,9 @@
+id: RULE_049
+title: Missing Commit Settings
+description: tOutput doesn't define commit frequency
+severity: medium
+pattern:
+  contains: "commitEvery"
+fix:
+  strategy: llm
+  message: "Set commit interval."

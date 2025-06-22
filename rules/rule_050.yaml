@@ -1,0 +1,9 @@
+id: RULE_050
+title: Unused Metadata Entries
+description: Unused columns in schema
+severity: low
+pattern:
+  contains: "metadata"
+fix:
+  strategy: llm
+  message: "Clean up schema definitions."

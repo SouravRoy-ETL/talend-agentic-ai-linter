@@ -1,0 +1,9 @@
+id: RULE_034
+title: Repository Connection Not Used
+description: Connection parameters hardcoded
+severity: high
+pattern:
+  contains: "connection="
+fix:
+  strategy: llm
+  message: "Use repository connection."

@@ -1,0 +1,9 @@
+id: RULE_036
+title: Invalid Default Values
+description: Defaults in schema don't match data type
+severity: medium
+pattern:
+  contains: "defaultValue"
+fix:
+  strategy: llm
+  message: "Correct default value types."

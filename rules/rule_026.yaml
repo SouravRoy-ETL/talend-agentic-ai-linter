@@ -1,0 +1,9 @@
+id: RULE_026
+title: tXMLMap Without Loop Element
+description: Missing loop element causes invalid XML
+severity: high
+pattern:
+  contains: "tXMLMap"
+fix:
+  strategy: llm
+  message: "Add loop element."

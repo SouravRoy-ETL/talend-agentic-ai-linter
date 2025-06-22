@@ -1,0 +1,9 @@
+id: RULE_022
+title: Context Variable Undefined
+description: Undefined context variable referenced
+severity: high
+pattern:
+  contains: "context."
+fix:
+  strategy: llm
+  message: "Ensure all context vars are declared."

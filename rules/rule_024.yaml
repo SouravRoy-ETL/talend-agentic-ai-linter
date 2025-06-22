@@ -1,0 +1,9 @@
+id: RULE_024
+title: Dead Code in Job Design
+description: Components with no input/output
+severity: low
+pattern:
+  contains: "tJava"
+fix:
+  strategy: llm
+  message: "Remove unconnected components."

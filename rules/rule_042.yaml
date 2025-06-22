@@ -1,0 +1,9 @@
+id: RULE_042
+title: Multiple Main Outputs
+description: Single component has multiple main outputs
+severity: high
+pattern:
+  contains: "MAIN"
+fix:
+  strategy: llm
+  message: "Review output links."

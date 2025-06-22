@@ -1,0 +1,9 @@
+id: RULE_044
+title: Overlapping Field Names
+description: Same name fields from different inputs
+severity: medium
+pattern:
+  contains: "schema"
+fix:
+  strategy: llm
+  message: "Disambiguate field names."

@@ -1,0 +1,9 @@
+id: RULE_025
+title: tReplicate Without Destination
+description: Replicator not connected to targets
+severity: medium
+pattern:
+  contains: "<tReplicate"
+fix:
+  strategy: llm
+  message: "Ensure all outputs are connected."

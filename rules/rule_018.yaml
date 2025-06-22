@@ -1,0 +1,9 @@
+id: RULE_018
+title: tSortRow With No Sort Criteria
+description: Detects tSortRow used without specifying keys
+severity: high
+pattern:
+  contains: "<tSortRow"
+fix:
+  strategy: llm
+  message: "Add sort key(s) for sorting."

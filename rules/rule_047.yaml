@@ -1,0 +1,9 @@
+id: RULE_047
+title: Unreachable tJavaRow
+description: tJavaRow not part of data flow
+severity: low
+pattern:
+  contains: "tJavaRow"
+fix:
+  strategy: llm
+  message: "Remove or connect properly."

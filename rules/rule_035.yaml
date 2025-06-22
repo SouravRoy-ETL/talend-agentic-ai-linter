@@ -1,0 +1,9 @@
+id: RULE_035
+title: Missing Error Handling
+description: No tDie/tWarn in subjob
+severity: high
+pattern:
+  contains: "<subjob>"
+fix:
+  strategy: llm
+  message: "Add proper error capture."

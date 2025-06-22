@@ -1,0 +1,9 @@
+id: RULE_010
+title: CSV Without Encoding
+description: Flags missing encoding attribute in file inputs
+severity: medium
+pattern:
+  contains: "tFileInputDelimited"
+fix:
+  strategy: llm
+  message: "Set encoding to UTF-8."

@@ -1,0 +1,9 @@
+id: RULE_003
+title: tFileInputDelimited Missing Header
+description: Ensures headers are enabled
+severity: medium
+pattern:
+  contains: "<HEADER>0</HEADER>"
+fix:
+  strategy: auto
+  message: "Enable header parsing."
