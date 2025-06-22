@@ -2,9 +2,6 @@
 
 This project automates detection and fixing of Talend job design issues using YAML-based rules, `.item` job files, and OpenRouter LLMs (GPT-based). It supports zipped jobs, generates CSV reports, and shows beautifully formatted CLI output.
 
-![image](https://github.com/user-attachments/assets/2a4b938c-8a69-4dc2-b6e2-ef92a567742e)
-
-
 ---
 
 ## 🚀 How to Run
@@ -130,3 +127,12 @@ pip install python-dotenv
 ```
 
 This allows `llm.py` to securely load your OpenRouter key at runtime.
+
+
+---
+
+## 🎥 Demo Video
+
+[![Watch the Demo](https://img.youtube.com/vi/H0oVfQjiWkk/maxresdefault.jpg)](https://youtu.be/H0oVfQjiWkk)
+
+> See the full agentic Talend LLM quality fixer in action!
