@@ -4,6 +4,12 @@ This project automates detection and fixing of Talend job design issues using YA
 
 ---
 
+## 🎥 Demo Video
+
+[![Watch the Demo](https://img.youtube.com/vi/H0oVfQjiWkk/maxresdefault.jpg)](https://youtu.be/H0oVfQjiWkk)
+
+> See the full agentic Talend LLM quality fixer in action!
+
 ## 🚀 How to Run
 
 1. **Place your zipped Talend projects** (containing `process/` folders with `.item` files) into:
@@ -130,9 +136,3 @@ This allows `llm.py` to securely load your OpenRouter key at runtime.
 
 
 ---
-
-## 🎥 Demo Video
-
-[![Watch the Demo](https://img.youtube.com/vi/H0oVfQjiWkk/maxresdefault.jpg)](https://youtu.be/H0oVfQjiWkk)
-
-> See the full agentic Talend LLM quality fixer in action!
