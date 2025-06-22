@@ -48,6 +48,29 @@ This will:
 
 ---
 
+## 🔐 OpenRouter API Key Setup
+
+1. Visit [https://openrouter.ai/](https://openrouter.ai/)
+2. Sign in and generate an API key from:  
+   [https://openrouter.ai/keys](https://openrouter.ai/keys)
+3. Copy the API key (starts with `sk-or-...`)
+
+4. Create a `.env` file in your project root with:
+```
+OPENROUTER_API_KEY=sk-or-your-key-here
+```
+
+5. Make sure `python-dotenv` is installed:
+```
+pip install python-dotenv
+```
+
+This allows `llm.py` to securely load your OpenRouter key at runtime.
+
+
+---
+
+
 ## 📁 Project Structure
 
 ```
@@ -129,31 +152,4 @@ This will:
 - [ ] `.env` setup wizard
 
 ---
-
-
----
-
-
-## 🔐 OpenRouter API Key Setup
-
-1. Visit [https://openrouter.ai/](https://openrouter.ai/)
-2. Sign in and generate an API key from:  
-   [https://openrouter.ai/keys](https://openrouter.ai/keys)
-3. Copy the API key (starts with `sk-or-...`)
-
-4. Create a `.env` file in your project root with:
-```
-OPENROUTER_API_KEY=sk-or-your-key-here
-```
-
-5. Make sure `python-dotenv` is installed:
-```
-pip install python-dotenv
-```
-
-This allows `llm.py` to securely load your OpenRouter key at runtime.
-
-
----
-
 
