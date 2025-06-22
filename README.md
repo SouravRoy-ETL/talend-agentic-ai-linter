@@ -2,6 +2,8 @@
 
 This project automates detection and fixing of Talend job design issues using YAML-based rules, `.item` job files, and OpenRouter LLMs (GPT-based). It supports zipped jobs, generates CSV reports, and shows beautifully formatted CLI output.
 
+**It Include 10 Production Ready jobs already. Just plug and play. Understand then Reuse.**
+
 ---
 
 ## 🎥 Demo Video
