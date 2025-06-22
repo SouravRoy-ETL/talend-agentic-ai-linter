@@ -10,6 +10,21 @@ This project automates detection and fixing of Talend job design issues using YA
 
 > See the full agentic Talend LLM quality fixer in action!
 
+## ✅ 50+ Production-Grade Code Quality Checks
+
+This framework supports **50+ scalable, production-level rule checks** tailored for enterprise Talend pipelines.  
+These cover:
+
+- 🔐 Context misuse & variable scope
+- 🧱 Schema issues, nulls, and defaults
+- 🚨 Missing error handling (e.g., tDie, tWarn)
+- 🪝 Unused metadata & dead code
+- 🌀 Infinite loop detection & unsafe joins
+- 🎯 Naming conventions, error propagation, subjob limits, and more
+
+> All rules are YAML-defined and support both `auto` fix and LLM-assisted suggestions.
+
+
 ## 🚀 How to Run
 
 1. **Place your zipped Talend projects** (containing `process/` folders with `.item` files) into:
@@ -115,6 +130,10 @@ This will:
 
 ---
 
+
+---
+
+
 ## 🔐 OpenRouter API Key Setup
 
 1. Visit [https://openrouter.ai/](https://openrouter.ai/)
@@ -136,3 +155,5 @@ This allows `llm.py` to securely load your OpenRouter key at runtime.
 
 
 ---
+
+
